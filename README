@@ -1,0 +1,9 @@
+How to use this?
+
+Just clone the cports repo (https://github.com/chimera-linux/cports) to your home directory,
+bootstrap build environment,
+copy neuswc and neuwld-devel-static to ~/cports/user,
+run cbuild relink-subpkgs, and
+run cbuild pkg user/neuswc (neuwld will be builded too as the neuswc dependency)
+
+Your builded packages repo will be stored in ~/cports/packages/user
