@@ -1,7 +1,7 @@
 pkgname = "neuwld-devel-static"
-pkgver = "0_git20260813"
+pkgver = "0_git20261026"
 pkgrel = 0
-_commit = "554f827cadfdfcc276c709dbffa3b2b04c70cf7c"
+_commit = "712fa71be579f3796b3cd500de87c736a8617dd7"
 build_style = "meson"
 configure_args = [
     "-Ddoxygen=enabled",
@@ -23,7 +23,7 @@ pkgdesc = "Simple wayland drawing library"
 license = "MIT"
 url = "https://git.sr.ht/~shrub900/neuwld"
 source = f"{url}/archive/{_commit}.tar.gz"
-sha256 = "b2bf77350f260cca046091d28f4a8af89cc495d1d983f3bbed8e2e39f5be86c1"
+sha256 = "6821c577f5f3274ed7462247fedcc7e8653758223d9cb95525b2b42d1474fa03"
 
 
 def post_install(self):
