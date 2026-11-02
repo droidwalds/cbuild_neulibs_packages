@@ -1,6 +1,6 @@
 pkgname = "neuswc"
-pkgver = "0_git20261002"
-_commit = "d1ec3e24c7e0b7400dc5c0e4dfb7194e805a489d"
+pkgver = "0_git20261029"
+_commit = "050726e3aa6f084512516e8d563fddbacb8dc2de"
 pkgrel = 0
 build_style = "meson"
 configure_args = [
@@ -23,7 +23,7 @@ pkgdesc = "Library for simple wayland compositors"
 license = "MIT"
 url = "https://git.sr.ht/~shrub900/neuswc"
 source = f"{url}/archive/{_commit}.tar.gz"
-sha256 = "fb00eb77282f34c64be372a5e0730d86b500b27491b041c5cf63a4195cf5fae9"
+sha256 = "b98b96a1f8e37916da5a4072f91aa3e486091d19a3ab8fcbab5aacc78a6fe38e"
 file_modes = {"usr/bin/swc-launch": ("root", "root", 0o4755)}
 
 
