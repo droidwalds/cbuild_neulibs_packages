@@ -4,6 +4,7 @@ _commit = "050726e3aa6f084512516e8d563fddbacb8dc2de"
 pkgrel = 0
 build_style = "meson"
 configure_args = [
+    "-Ddefault_library=both",
     "-Dudev=enabled",
     "-Dxwayland=enabled",
 ]
@@ -14,7 +15,7 @@ hostmakedepends = [
 makedepends = [
     "libinput-devel",
     "libxkbcommon-devel",
-    "neuwld-devel-static",
+    "neuwld-devel",
     "wayland-protocols",
     "xcb-util-wm-devel",
     "xwayland-devel",
